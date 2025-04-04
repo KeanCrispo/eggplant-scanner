@@ -1,32 +1,16 @@
-absl-py==0.9.0
-altair==4.1.0
-attrs==19.3.0
-blinker==1.4
-boto3==1.12.41
-botocore==1.15.41
-cachetools==4.1.0
-certifi==2022.12.7
-chardet==3.0.4
-click==7.1.1
-colorama==0.4.3
-decorator==4.4.2
-h5py==3.8.0
-Jinja2==2.11.3
-jsonschema==3.2.0
-markdown==3.2.1
-numpy==1.23.5
-pandas==1.0.3
-pillow==9.3.0
-protobuf==3.20.3
-pydeck==0.3.0
-pyparsing==2.4.7
-pyrsistent==0.16.0
-python-dateutil==2.8.1
-pytz==2019.3
-requests==2.23.0
-scipy==1.4.1
+# Streamlit for web UI
 streamlit==1.25.0
+
+# TensorFlow for loading the .h5 model
 tensorflow==2.12.0
-urllib3==1.26.5
-validators==0.14.3
-watchdog==0.10.2
+
+# Numerical and scientific computing libraries
+numpy
+scipy
+
+# Image processing
+pillow
+h5py
+
+# (Optional) Dependencies for better performance
+protobuf==3.20.3  # Ensures compatibility with TensorFlow
