@@ -62,7 +62,7 @@ def load_model(path):
     return model
 
 # Load model
-model = load_model("eggplant_model.h5")
+model = load_model("https://drive.google.com/drive/my-drive/eggplant_model.h5")
 
 # Hide Streamlit branding
 st.markdown("""
