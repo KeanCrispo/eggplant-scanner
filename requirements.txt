@@ -1,16 +1,16 @@
-# Streamlit for web UI
+# Streamlit for UI
 streamlit==1.25.0
 
-# TensorFlow for loading the .h5 model
-tensorflow==2.12.0
+# TensorFlow (use latest compatible version for Python 3.12)
+tensorflow==2.17.1
 
-# Numerical and scientific computing libraries
+# Numerical processing
 numpy
 scipy
 
-# Image processing
+# Image processing and model loading
 pillow
 h5py
 
-# (Optional) Dependencies for better performance
-protobuf==3.20.3  # Ensures compatibility with TensorFlow
+# Ensure compatibility with TensorFlow
+protobuf==3.20.3
